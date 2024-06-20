@@ -10,10 +10,11 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="w-full flex justify-between items-center fixed top-0 left-0  px-16 py-4 z-10 backdrop-blur-md style={{ background: radial-gradient(circle at 50% 50%, rgba(158, 110, 230, 0.22), rgba(158, 110, 230, 0))' }}">
+      <nav className="w-full flex justify-between items-center fixed top-0 left-0  px-6 md:px-16 py-4 z-10 backdrop-blur-md style={{ background: radial-gradient(circle at 50% 50%, rgba(158, 110, 230, 0.22), rgba(158, 110, 230, 0))' }}">
         <div className="flex items-center justify-start gap-12">
           <div className="font-medium text-xl font-outfit text-left leading-[25.2px] tracking-[0.5em] hover:cursor-pointer bg-clip-text hover:text-transparent bg-gradient-to-r hover:from-indigo-400 hover:to-pink-400 ">
-            AI.GEN
+            <span className="hidden md:inline">AI.GEN</span>
+            <span className="md:hidden">AVATAR.AI</span>
           </div>
           <ul className="hidden md:flex gap-x-8 font-normal leading-6 text-base">
             <li className=" bg-clip-text hover:text-transparent hover:cursor-pointer bg-gradient-to-r hover:from-indigo-400 hover:to-pink-400 ">

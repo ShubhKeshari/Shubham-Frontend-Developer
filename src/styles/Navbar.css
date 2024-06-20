@@ -60,11 +60,11 @@ body {
   }
   
   .img-animate-up-down {
-    animation: moveUpDown 3s ease-in-out infinite;
+    animation: moveUpDown 5s ease-in-out infinite;
   }
   
   .img-animate-down-up {
-    animation: moveDownUp 3s ease-in-out infinite;
+    animation: moveDownUp 5s ease-in-out infinite;
   }
   .textSection-para h1{
   font-weight: 600;
