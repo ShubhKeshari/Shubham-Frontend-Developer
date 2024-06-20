@@ -14,8 +14,8 @@ export const Header = () => {
   return (
     <div className="mx-auto w-full relative overflow-hidden header">
       <Navbar />
-      <div className="md:flex p-10 mt-20">
-        <header className="md:w-[50%] md:ml-40 mt-20">
+      <div className="md:flex p-14 mt-20">
+        <header className="md:w-[50%] md:ml-32 mt-20">
           <button className="btn0 border px-2 py-1 text-sm rounded-lg bg-slate-900 border-slate-400">
             🎉 New in AI.GEN: Real Time Interaction
           </button>
