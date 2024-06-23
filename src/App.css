@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-.upper-container {
+.major-container {
   font-family: 'Outfit', sans-serif;
   color: white;
   background: linear-gradient(10deg, rgb(24, 22, 22), rgb(26, 26, 60), black);
@@ -8,6 +8,6 @@
 }
 
 
-.main-container{
+.roadmap-container{
   background: radial-gradient(50% 50% at 50% 50%, rgba(250, 117, 248, 0.28) 0%, rgba(250, 117, 248, 0) 100%);
 }

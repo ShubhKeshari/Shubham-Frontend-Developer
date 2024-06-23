@@ -1,0 +1,29 @@
+.roadmap01-h1 {
+    background: linear-gradient(90deg, #ea73f3, #9f6ee6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .roadmap01-h2 {
+    background: linear-gradient(90deg, #facc69 0%, #fa75f8 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+  }
+  
+  @media (max-width: 520px) {
+    .text-Area ul {
+      padding: 5px;
+      margin-left: 20px;
+    }
+  }
+  
+  .text-Area {
+    padding: 10px;
+  }
+  .text-Area h1 {
+    width: 240px;
+  }
+  

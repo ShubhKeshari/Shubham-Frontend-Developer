@@ -1,5 +1,6 @@
 import React from "react";
 import Donut from "/Donut-B3kKWM1L.png";
+import "../styles/Tokenomics.css"
 
 const Tokenomics = () => {
   return (
