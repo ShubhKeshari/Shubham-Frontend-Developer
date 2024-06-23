@@ -36,7 +36,7 @@ const Footer = () => {
               placeholder="Enter Your Name"
               className="border-2 border-white bg-transparent rounded-lg w-full md:w-96 p-3 md:p-5 text-lg md:h-16 md:text-2xl"
             />
-            <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full md:w-40 h-14 md:h-16 rounded-lg text-white text-lg md:text-2xl">
+            <button className="bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-violet-700 hover:to-fuchsia-700 w-full md:w-40 h-14 md:h-16 rounded-lg text-white text-lg md:text-2xl">
               Submit
             </button>
           </div>
@@ -44,14 +44,14 @@ const Footer = () => {
       </div>
 
       <footer className="footer-bottom flex justify-between p-5 md:p-10  mb-0 items-center">
-        <h1 className="text-white text-lg md:text-2xl mr-5 md:mr-10">
+        <h1 className="text-white text-lg md:text-2xl mr-5 md:mr-10 bg-clip-text hover:text-transparent hover:cursor-pointer bg-gradient-to-r hover:from-indigo-400 hover:to-pink-400 ">
           A.I <span className="ml-1 md:ml-2">GEN</span>
         </h1>
         <div className="flex gap-2 md:gap-4">
-          <img src={twitter} alt="twitter" />
-          <img src={linkedin} alt="linkedin" />
-          <img src={tiktok} alt="tiktok" />
-          <img src={youtube} alt="youtube" />
+          <img className="hover:cursor-pointer" src={twitter} alt="twitter" />
+          <img className="hover:cursor-pointer" src={linkedin} alt="linkedin" />
+          <img className="hover:cursor-pointer" src={tiktok} alt="tiktok" />
+          <img className="hover:cursor-pointer" src={youtube} alt="youtube" />
         </div>
       </footer>
     </div>

@@ -27,6 +27,9 @@
 .getstarted button > span {
   font-size: 48px;
 }
+.getstarted button:hover{
+  background: linear-gradient(90deg, #874ddd 0%, #df45dc 100%);
+}
 @media only screen and (max-width: 1024px) {
   .getstarted {
     width: 100%;
